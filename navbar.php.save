@@ -1,0 +1,21 @@
+
+
+
+ <nav class="TopNav" style="background-color:#974739 " id="navthing">
+
+        <div class="container">
+
+            <div class="naviBar" style="background-color:#974739 " id="navstuff                <a href="#" class="active navbar-center" onclick="location.relo$
+                <a href="http://www2.scs.ryerson.ca/~wsaleh/630/About.php">Abou$
+                <a href="http://www2.scs.ryerson.ca/~wsaleh/630/Report.php">Blo$
+                <a href="#" id="Search" class=" pull-right"><i class="fab fa-se$
+                <a href="http://www2.scs.ryerson.ca/~wsaleh/630/crud.php" class$
+                <a href="#" class=" pull-right"><i class="fas fa-shopping-cart"$
+            </div>
+        </div>
+        </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+

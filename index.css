@@ -1,0 +1,128 @@
+body {
+
+    background-repeat: i;
+    background-color: #E9B78B;
+    background-size: 100%;
+    
+}
+.panel-body{
+    height: 200px;
+}
+
+ .dropdownlist {
+    background-color:#974739;
+    border-color: #974739 ;
+    box-shadow: 1px;
+
+}
+ .dropdownlist:hover {
+background-color:#93693A;
+border-color: #591F20;
+}
+
+
+img {
+    width: 500px;
+    height: auto;
+}
+ .small{
+    float:right;
+    width: 200px;
+    height: 200px;
+ }
+p {
+    font-family: verdana, arial, helvetica;
+    font-size: 11pt;
+    color: black;
+}
+
+h1 {
+    text-shadow: 1px 1px black;
+}
+
+a:visited {
+    color: #AE3ABF;
+}
+
+.naviBar {
+    overflow: hidden;
+    
+}
+
+.naviBar a, button .naviBar {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.icon {
+    display: hidden;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+.navibar a:hover
+{
+    background-color: #93693A;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
+
+
+@media screen and (min-width: 801px) {
+    .naviBar a.icon {
+
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .naviBar a:not(:first-child),.dropdown .responsive{
+        display: none;
+    }
+    .naviBar a.icon  {
+        float: right;
+        display: block;
+    }
+    .naviBar .responsive {
+        position: relative;
+    }
+    .responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .naviBar.responsive a , .dropdown .responsive{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+ .dropdownbutton {
+    background-color:#974739;
+    border-color: #974739 ;
+    box-shadow: 1px; 
+
+}
+ .dropdownbutton:hover .dropdown:hover{
+background-color:#93693A;
+border-color: #591F20;
+}
+.dropdowncontent {
+    display: none;
+  
+}
+.dropdown:hover .dropdowncontent {
+    display: block;
+}

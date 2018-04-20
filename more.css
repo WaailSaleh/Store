@@ -1,0 +1,101 @@
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+.DBChoice{
+  min-width: 100%;
+}
+table{
+  background-color: white;
+}
+td img {
+  max-width: 75px;
+  height: auto;
+}
+#sidenav, #control {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+     transition: 0.5s;
+    right: 0;
+    background-color: #974739;
+    overflow-x: hidden;
+    opacity: .9;
+    padding-top: 20px;
+    box-shadow: 2px;
+}
+#control{
+  left:0;
+  width: 20%;
+}
+#closeSearch{
+    font-size: 26;
+}
+#control a, #sidenav a {
+    padding: 6px 8px 6px 16px;
+     transition: 0.5s;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+#results{
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+  display: block;
+}
+#sidenav a:hover , #control a:hover{
+    color: #f1f1f1;
+}
+.main {
+    
+    padding: 0px 10px;
+}
+
+ input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+ 
+}
+
+#submitSearch {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#submitSearch button:hover {
+  background: #ccc;
+}
+
+input[type=text],  #submitSearch {
+    float: none;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 14px;
+width: 100%;
+  }
+   input[type=text] {
+    border: 1px solid #ccc; 
+     text-align: left; 
+  }

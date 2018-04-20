@@ -1,0 +1,158 @@
+{
+  "Artworks": [
+    {
+      "Title": "Mona Lisa",
+      "Artist": "Leonardo Da Vinci",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/99/Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg",
+      "Year": "1517",
+      "Dimensions": "77 cm × 53 cm",
+      "Location": "Musée du Louvre",
+      "Paint": "Oil",
+      "Genres": "Renaissance",
+      "Price": "$782,000,000"
+    },
+    {
+      "Title": "Starry Night",
+      "Artist": "Van Gogh",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "Year": "1889",
+      "Dimensions": " 74 cm x 92 cm",
+      "Location": "Museum of Modern Art",
+      "Paint": "Oil",
+      "Genres": "Landscape painting",
+      "Price": "$100,000,000"
+    },
+    {
+      "Title": "The Creation of Adam",
+      "Artist": " Michelangelo",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg/300px-Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg",
+      "Year": "1512",
+      "Dimensions": "280 cm × 570 cm ",
+      "Location": "The Sistine Chapel",
+      "Paint": "fresco",
+      "Genres": "Christian Art",
+      "Price": " N/A"
+    },
+    {
+      "Title": "Guernica",
+      "Artist": " Pablo Picasso",
+      "source": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/350px-PicassoGuernica.jpg",
+      "Year": "1937",
+      "Dimensions": "349.3 cm × 776.6 cm",
+      "Location": "Museo Reina Sofia, Madrid, Spain",
+      "Paint": "Oil",
+      "Genres": "History",
+      "Price": "$179,000,000"
+    },
+    {
+      "Title": "Girl with a Pearl Earring",
+      "Artist": "Johannes Vermeer",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/300px-Meisje_met_de_parel.jpg",
+      "Year": "1665",
+      "Dimensions": "44.5 cm × 39 cm",
+      "Location": " Mauritshuis, The Hague,",
+      "Paint": "Oil",
+      "Genres": "Portrait",
+      "Price": "$40,000,000"
+    }
+  ],
+
+
+  "Artists" : [
+      {
+        "Name"  :"Michelangelo",
+        "Life"  :"1475 ~ 1564",
+        "Lived" :"Caprese near Arezzo, Republic of Florence",
+        "Genre" :"High Renaissance",
+        "Fame"  :"The Creation of Adam",
+        "source":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/220px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg"
+      },
+      {
+        "Name"  :"Johannes Vermeer",
+        "Life"  :"1632 ~ 1675",
+        "Lived" :"Delft, Dutch Republic",
+        "Genre" :"Baroque",
+        "Fame"  :"Girl with a Pearl Earring",
+        "source":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg/220px-Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg"
+      },
+      {
+        "Name"  :"Pablo Picasso",
+        "Life"  :"1881 ~ 1973",
+        "Lived" :"Mougins, France",
+        "Genre" :"Cubism, Surrealism",
+        "Fame"  :"Guernica ",
+        "source":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portrait_de_Picasso%2C_1908.jpg/230px-Portrait_de_Picasso%2C_1908.jpg"
+      },
+      {
+        "Name"  :"Van Gogh",
+        "Life"  :"1853 ~ 1890",
+        "Lived" :"Auvers-sur-Oise, France",
+        "Genre" :"Post-Impressionism",
+        "Fame"  :"The Starry Night",
+        "source":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/220px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg"
+      },
+      {
+        "Name"  :"Leonardo Da Vinci",
+        "Life"  :"1452 ~ 1519",
+        "Lived" :"Vinci, Republic of Florence",
+        "Genre" :"High Renaissance",
+        "Fame"  :"Mona Lisa",
+        "source":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Francesco_Melzi_-_Portrait_of_Leonardo_-_WGA14795.jpg/220px-Francesco_Melzi_-_Portrait_of_Leonardo_-_WGA14795.jpg"
+      }
+  ],
+
+  
+  "Museums" : [
+  {
+    "ID": "1",
+    "Name": "Louvre Palace",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/300px-Louvre_Museum_Wikimedia_Commons.jpg",
+    "Year": "1989",
+    "Location": "Paris, France",
+    "History": "The Louvre Palace is a former royal palace located on the Right Bank of the Seine in Paris",
+    "Architects": " Pierre Lescot",
+    "Work": "Mona Lisa"
+  },
+  {
+    "ID": "2",
+    "Name": "The Acropolis Museum",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/20140407_athenes44.JPG/220px-20140407_athenes44.JPG",
+    "Year": "2009",
+    "Location": "Athens, Greece",
+    "History": "The Acropolis Museum is an archaeological museum focused on the findings of the archaeological site of the Acropolis of Athens.",
+    "Architects": "Bernard Tschumi",
+    "Work": "Goddess Nike"
+  },
+  {
+    "ID": "3",
+    "Name": "Smithsonian Institution",
+    "source": "http://www.vernerjohnson.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_7_1461351884/content/assets/xfs_1600x1200_s100_AI%201800%202-0.jpg",
+    "Year": "1846",
+    "Location": "Washington, DC, USA",
+    "History": "The Smithsonian Institution, established on August 10, 1846 for the increase and diffusion of knowledge, is a group of museums and research centers administered by the Government of the United States.",
+    "Architects": "James Renwick Jr.",
+    "Work": "Benjamin Franklin "
+  },
+  {
+    "ID": "4",
+    "Name": "Museum of Modern Art",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/MoMa_NY_USA_1.jpg/220px-MoMa_NY_USA_1.jpg",
+    "Year": "1929",
+    "Location": "New York, USA",
+    "History": "Museum of Modern Art has been important in developing and collecting modernist art, and is often identified as one of the largest and most influential museums of modern art in the world.",
+    "Architects": "Yoshio Taniguchi,",
+    "Work": "Starry Night"
+  },
+  {
+    "ID": "5",
+    "Name": "Mauritshuis",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bartholomeus_Johannes_van_Hove%2C_Het_Mauritshuis_te_Den_Haag.jpg/200px-Bartholomeus_Johannes_van_Hove%2C_Het_Mauritshuis_te_Den_Haag.jpg",
+    "Year": "1822",
+    "Location": "Den Haag, Netherlands",
+    "History": "The Mauritshuis is home to the very best of Dutch Golden Age painting. The compact, yet world-renowned collection, is situated in the heart of The Hague",
+    "Architects": " Pierre Lescot",
+    "Work": "Girl with a Pearl Earring"
+  }
+]
+
+}
